@@ -24,3 +24,29 @@
 1491791595 source:c:\users\user\documents\tugas1\point.cpp
 	"point.h"
 
+1491791600 source:c:\users\user\documents\github\tugas1\color.cpp
+	"color.h"
+
+1491791196 c:\users\user\documents\github\tugas1\color.h
+
+1491807174 source:c:\users\user\documents\github\tugas1\line.cpp
+	"line.h"
+
+1491791446 c:\users\user\documents\github\tugas1\line.h
+	"point.h"
+	"color.h"
+	<windows.h>
+	<GL/glut.h>
+
+1491757590 c:\users\user\documents\github\tugas1\point.h
+
+1491791595 source:c:\users\user\documents\github\tugas1\point.cpp
+	"point.h"
+
+1491830241 source:c:\users\user\documents\github\tugas1\main.cpp
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	<vector>
+	"line.h"
+
