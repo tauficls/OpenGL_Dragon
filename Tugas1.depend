@@ -43,7 +43,7 @@
 1491791595 source:c:\users\user\documents\github\tugas1\point.cpp
 	"point.h"
 
-1491830241 source:c:\users\user\documents\github\tugas1\main.cpp
+1491843848 source:c:\users\user\documents\github\tugas1\main.cpp
 	<iostream>
 	<windows.h>
 	<GL/glut.h>
