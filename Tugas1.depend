@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1491800100 source:c:\users\user\documents\tugas1\main.cpp
+	<iostream>
+	<windows.h>
+	<GL/glut.h>
+	"line.h"
+
+1491791600 source:c:\users\user\documents\tugas1\color.cpp
+	"color.h"
+
+1491791196 c:\users\user\documents\tugas1\color.h
+
+1491791598 source:c:\users\user\documents\tugas1\line.cpp
+	"line.h"
+
+1491791446 c:\users\user\documents\tugas1\line.h
+	"point.h"
+	"color.h"
+	<windows.h>
+	<GL/glut.h>
+
+1491757590 c:\users\user\documents\tugas1\point.h
+
+1491791595 source:c:\users\user\documents\tugas1\point.cpp
+	"point.h"
+
