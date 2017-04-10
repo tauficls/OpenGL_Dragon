@@ -17,13 +17,24 @@ void display() {
     Point <GLfloat> p6(0.376 * 3 - 1, 0.159 * -3);
     Point <GLfloat> p7(0.368 * 3 - 1, 0.174 * -3);
 
-    /* telingga belakang */
+    /* telingga kepala */
+    Point <GLfloat> k1(0.427 * 3 - 1, 0.222 * -3);
+    Point <GLfloat> k2(0.449 * 3 - 1, 0.205 * -3);
+    Point <GLfloat> k3(0.442 * 3 - 1, 0.191 * -3);
+    Point <GLfloat> k4(0.428 * 3 - 1, 0.160 * -3);
+    Point <GLfloat> k5(0.400 * 3 - 1, 0.150 * -3);
+    Point <GLfloat> k6(0.368 * 3 - 1, 0.172 * -3);
+    Point <GLfloat> k7(0.366 * 3 - 1, 0.192 * -3);
+    Point <GLfloat> k8(0.388 * 3 - 1, 0.210 * -3);
+    Point <GLfloat> k9(0.427 * 3 - 1, 0.222 * -3);
+
     vector<Point<GLfloat>> points;
     points.push_back(p1);
 
 
     color <GLfloat> cb(1.0f, 1.0f, 1.0f, 0.0f);
     color <GLfloat> c(1.0f, 0.0f, 0.0f, 0.0f);
+    color <GLfloat> ck(1.0f, 1.0f, 0sd.0f, 0.0f);
 
     glClearColor(cb.getR(), cb.getG(), cb.getB(), cb.getA());       // Set background color to black and opaque
     glClear(GL_COLOR_BUFFER_BIT);                                   // Clear the color buffer
@@ -39,16 +50,18 @@ void display() {
         glVertex2f(p6.getX(), p6.getY());
         glVertex2f(p7.getX(), p7.getY());
     glEnd();
-    glColor3f(c.getR(), c.getG(), c.getB()); // Red
+    glColor3f(ck.getR(), ck.getG(), ck.getB()); // Red
 //    Draw a Red 1x1 Square centered at origin
     glBegin(GL_POLYGON);              // Each set of 4 vertices form a quad
-        glVertex2f(p8.getX(), p8.getY());    // x, y
-        glVertex2f(p9.getX(), p9.getY());    // x, y
-        glVertex2f(p10.getX(), p10.getY());    // x, y
-        glVertex2f(p11.getX(), p11.getY());
-        glVertex2f(p12.getX(), p12.getY());
-        glVertex2f(p13.getX(), p13.getY());
-        glVertex2f(p14.getX(), p14.getY());
+        glVertex2f(k1.getX(), k1.getY());    // x, y
+        glVertex2f(k2.getX(), k2.getY());    // x, y
+        glVertex2f(k3.getX(), k3.getY());    // x, y
+        glVertex2f(k4.getX(), k4.getY());
+        glVertex2f(k5.getX(), k5.getY());
+        glVertex2f(k6.getX(), k6.getY());
+        glVertex2f(k7.getX(), k7.getY());
+        glVertex2f(k8.getX(), k8.getY());
+        glVertex2f(k9.getX(), k9.getY());
     glEnd();
 //    glBegin(GL_POLYGON);
 //        glVertex2f();
